@@ -4,28 +4,28 @@ import { Footer } from '@/components/layout/Footer'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Eng so\'nggi 2026 Tarjima Kinolar',
-  description: 'Eng so\'nggi 2026 Tarjima Kinolar',
-  keywords: ['kinolar', 'onlayn ko\'rish', 'yuklab olish', 'bepul tomosha', 'seriallar', 'multfilm'],
-  metadataBase: new URL('http://localhost:3000'), // Replace with your production URL later
+  title: 'AsilMedia.NET - Eng so\'ngi 2026 tarjima kinolar! Barchasi HD Original kesilmagan holda!',
+  description: 'O\'zbekistondagi eng birinchi super kino portal! Hoziroq tarjima kinolarni bizda tomosha qiling!',
+  keywords: ['kinolar', 'onlayn ko\'rish', 'yuklab olish', 'bepul tomosha', 'seriallar', 'multfilm', 'Tarjima kinolar', 'Hind kinolar', 'HD original kesilmagan', 'Ujas kinolar', 'Jangari kinolar', 'O\'zbek tilida', 'Uzbekcha tarjima kino', 'Uzbek filmlar', '2025', '2026', 'yangi kinolar'],
+  metadataBase: new URL('https://asilmedia.org'), // Upgraded production URL
   openGraph: {
     type: 'website',
     locale: 'uz_UZ',
     url: '/',
-    siteName: 'Eng so\'nggi 2026 Tarjima Kinolar',
+    siteName: 'AsilMedia.NET',
     images: [
       {
-        url: '/og-image.jpg', // You might want to generate/add this later
+        url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Eng so\'nggi 2026 Tarjima Kinolar',
+        alt: 'AsilMedia.NET',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Eng so\'nggi 2026 Tarjima Kinolar',
-    description: 'Eng so\'nggi 2026 Tarjima Kinolar',
+    title: 'AsilMedia.NET - Eng so\'ngi 2026 tarjima kinolar!',
+    description: 'O\'zbekistondagi eng birinchi super kino portal! Hoziroq tarjima kinolarni bizda tomosha qiling!',
   },
 }
 
@@ -37,6 +37,7 @@ export default function RootLayout({
   return (
     <html lang="uz">
       <head>
+        <meta name="monetag" content="268c533339d8d783ef9781fbe99d2927" />
         <script src="https://5gvci.com/act/files/tag.min.js?z=10702261" data-cfasync="false" async></script>
       </head>
       <body className="bg-background text-foreground antialiased overflow-x-hidden">

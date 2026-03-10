@@ -37,11 +37,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     if (!movie) return { title: 'Movie Not Found' }
 
     return {
-        title: `${movie.title} - FILM.NET`,
+        title: `${movie.title} - AsilMedia.NET ! O'zbekcha tarjima kino skachat !`,
         description: movie.description,
+        keywords: [movie.title, 'tarjima kino', 'o\'zbek tilida', 'skachat', 'asilmedia'],
         openGraph: {
-            title: movie.title,
+            title: `${movie.title} - AsilMedia.NET !`,
             description: movie.description,
+            siteName: 'AsilMedia.NET'
         }
     }
 }

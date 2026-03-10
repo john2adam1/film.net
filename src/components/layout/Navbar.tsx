@@ -32,8 +32,8 @@ export function Navbar() {
 
                 <div className="flex flex-col items-center flex-1">
                     <Link href="/" className="flex flex-col items-center">
-                        <h1 className="text-lg md:text-xl font-bold tracking-tight leading-tight text-center">
-                            Eng so'nggi 2026 Tarjima Kinolar
+                        <h1 className="text-lg md:text-xl font-bold tracking-tight leading-tight text-center text-primary">
+                            AsilMedia.NET
                         </h1>
                         <span className="text-[10px] md:text-xs opacity-80 font-medium">barchasi faqat bizda!</span>
                     </Link>
